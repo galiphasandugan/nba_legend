@@ -1,9 +1,9 @@
+import Col from 'react-bootstrap/Col';
 
-
-const PlayerCard = () => {
+const PlayerCard = ({name,statistics, img}) => {
   return (
     <div>
-      
+      <Col>{name}</Col>
     </div>
   )
 }
